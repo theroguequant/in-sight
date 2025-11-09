@@ -1,13 +1,25 @@
 
 
-echo "node_modules/" >> .gitignore
-echo "dist/" >> .gitignore
-echo ".env" >> .gitignore
-echo "coverage/" >> .gitignore
-echo "logs/" >> .gitignore
-echo "*.log" >> .gitignore
-echo "tmp/" >> .gitignore
-echo ".DS_Store" >> .gitignore
-echo ".idea/" >> .gitignore
-echo "*.swp" >> .gitignore
-echo "build/" >> .gitignore 
+
+dist 
+.env
+coverage/ 
+logs/
+*.log 
+tmp/
+.DS_Store 
+.idea/ 
+*.swp 
+build/ 
+node_modules/
+.next/
+.env
+.DS_Store
+logs/
+*.log
+tmp/
+.idea/
+*.swp
+coverage/
+dist/
+build/
