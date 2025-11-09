@@ -1,0 +1,13 @@
+
+
+echo "node_modules/" >> .gitignore
+echo "dist/" >> .gitignore
+echo ".env" >> .gitignore
+echo "coverage/" >> .gitignore
+echo "logs/" >> .gitignore
+echo "*.log" >> .gitignore
+echo "tmp/" >> .gitignore
+echo ".DS_Store" >> .gitignore
+echo ".idea/" >> .gitignore
+echo "*.swp" >> .gitignore
+echo "build/" >> .gitignore 
